@@ -1,0 +1,709 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\messaging\\producers\\kafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\messaging\\producers\\kafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\services\\environmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\controllers\\environmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\controllers\\environmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\events\\environmentuserremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\events\\environmentuserremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\events\\environmentuseraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\events\\environmentuseraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\events\\environmentupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\events\\environmentupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|\u00C9l\u00E9ments de solution{9C8CB701-102D-CF49-A3E0-89AC09D42C2C}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\mappings\\environmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\mappings\\environmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\interfaces\\ikafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\interfaces\\ikafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\interfaces\\ienvironmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\interfaces\\ienvironmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\interfaces\\ienvironmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\interfaces\\ienvironmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\interfaces\\ienvironmentmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\interfaces\\ienvironmentmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\events\\environmentdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\events\\environmentdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\events\\environmentcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\events\\environmentcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\responses\\environmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\responses\\environmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\responses\\environmentmemberresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\responses\\environmentmemberresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\responses\\environmentinvitationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\responses\\environmentinvitationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\requests\\updateenvironmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\requests\\updateenvironmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\requests\\createenvironmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\requests\\createenvironmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\dtos\\requests\\addmemberrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\dtos\\requests\\addmemberrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\environmentsservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\environmentsservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\environmentsservice.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\environmentsservice.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.api\\environmentsservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{046A934E-F64F-45EA-8A3D-F8E647231C38}|EnvironmentsService.API\\EnvironmentsService.API.csproj|solutionrelative:environmentsservice.api\\environmentsservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.application\\environmentsservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1AEC5C8-9F06-403F-9F0B-209FC6FB7E31}|EnvironmentsService.Application\\EnvironmentsService.Application.csproj|solutionrelative:environmentsservice.application\\environmentsservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\repositories\\environmentmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\repositories\\environmentmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\data\\configurations\\environmentmemberconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\data\\configurations\\environmentmemberconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\environmentsservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\environmentsservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.domain\\entities\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|solutionrelative:environmentsservice.domain\\entities\\environment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.domain\\entities\\environmentmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|solutionrelative:environmentsservice.domain\\entities\\environmentmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\repositories\\environmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\repositories\\environmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\migrations\\20251209194308_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\migrations\\20251209194308_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\data\\configurations\\environmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\data\\configurations\\environmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.domain\\environmentsservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36430CB4-E58D-4F45-BED7-37EA35921ED0}|EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj|solutionrelative:environmentsservice.domain\\environmentsservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|c:\\users\\tut\\desktop\\pfe\\environmentservice\\environmentsservice.infrastructure\\migrations\\20251212042110_addenvironmentmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F7CF-5219-4FED-B837-9178D289FB64}|EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj|solutionrelative:environmentsservice.infrastructure\\migrations\\20251212042110_addenvironmentmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\appsettings.Development.json",
+              "RelativeToolTip": "EnvironmentsService.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T13:05:09.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KafkaProducer.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Messaging\\Producers\\KafkaProducer.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Messaging\\Producers\\KafkaProducer.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Messaging\\Producers\\KafkaProducer.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Messaging\\Producers\\KafkaProducer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T02:59:20.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EnvironmentsService.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:05:52.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnvironmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Controllers\\EnvironmentsController.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Controllers\\EnvironmentsController.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Controllers\\EnvironmentsController.cs",
+              "RelativeToolTip": "EnvironmentsService.API\\Controllers\\EnvironmentsController.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAAwBQBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:45:37.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnvironmentService.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Services\\EnvironmentService.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Services\\EnvironmentService.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Services\\EnvironmentService.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Services\\EnvironmentService.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAYwCwBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:33:41.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\appsettings.json",
+              "RelativeToolTip": "EnvironmentsService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T13:05:04.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnvironmentUserRemovedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUserRemovedEvent.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Events\\EnvironmentUserRemovedEvent.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUserRemovedEvent.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Events\\EnvironmentUserRemovedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T00:00:06.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnvironmentUserAddedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUserAddedEvent.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Events\\EnvironmentUserAddedEvent.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUserAddedEvent.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Events\\EnvironmentUserAddedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T23:16:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnvironmentUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Events\\EnvironmentUpdatedEvent.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentUpdatedEvent.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Events\\EnvironmentUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:55:44.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAGMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-10T19:23:19.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnvironmentMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Mappings\\EnvironmentMappingProfile.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Mappings\\EnvironmentMappingProfile.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Mappings\\EnvironmentMappingProfile.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Mappings\\EnvironmentMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:32:51.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EnvironmentsService.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-07T22:14:42.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IKafkaProducer.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IKafkaProducer.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Interfaces\\IKafkaProducer.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IKafkaProducer.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Interfaces\\IKafkaProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T02:58:08.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEnvironmentService.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentService.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Interfaces\\IEnvironmentService.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentService.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Interfaces\\IEnvironmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:24:18.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEnvironmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentRepository.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Interfaces\\IEnvironmentRepository.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentRepository.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Interfaces\\IEnvironmentRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:39:11.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEnvironmentMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentMemberRepository.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Interfaces\\IEnvironmentMemberRepository.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Interfaces\\IEnvironmentMemberRepository.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Interfaces\\IEnvironmentMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:28:41.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EnvironmentDeletedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentDeletedEvent.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Events\\EnvironmentDeletedEvent.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentDeletedEvent.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Events\\EnvironmentDeletedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:56:16.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnvironmentCreatedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentCreatedEvent.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\Events\\EnvironmentCreatedEvent.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\Events\\EnvironmentCreatedEvent.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\Events\\EnvironmentCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:55:04.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnvironmentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentResponseDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentResponseDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentResponseDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:23:19.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnvironmentMemberResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentMemberResponseDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentMemberResponseDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentMemberResponseDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentMemberResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:25:55.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EnvironmentInvitationResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentInvitationResponseDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentInvitationResponseDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentInvitationResponseDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Responses\\EnvironmentInvitationResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:06:44.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateEnvironmentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\UpdateEnvironmentRequestDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Requests\\UpdateEnvironmentRequestDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\UpdateEnvironmentRequestDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Requests\\UpdateEnvironmentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:22:47.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateEnvironmentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\CreateEnvironmentRequestDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Requests\\CreateEnvironmentRequestDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\CreateEnvironmentRequestDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Requests\\CreateEnvironmentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T00:22:08.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddMemberRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\AddMemberRequestDto.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\DTOs\\Requests\\AddMemberRequestDto.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\DTOs\\Requests\\AddMemberRequestDto.cs",
+              "RelativeToolTip": "EnvironmentsService.Application\\DTOs\\Requests\\AddMemberRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:25:22.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Program.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Program.cs",
+              "RelativeToolTip": "EnvironmentsService.API\\Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAiwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:08:08.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EnvironmentsService.API.http",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.http",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\EnvironmentsService.API.http",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.http",
+              "RelativeToolTip": "EnvironmentsService.API\\EnvironmentsService.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-27T13:50:23.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Dockerfile",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Dockerfile",
+              "RelativeToolTip": "EnvironmentsService.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-14T02:47:28.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "EnvironmentsService.API\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:39:50.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\.dockerignore",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\.dockerignore",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\.dockerignore",
+              "RelativeToolTip": "EnvironmentsService.API\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-14T02:50:24.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EnvironmentsService.API",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "RelativeToolTip": "EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-27T13:41:30.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EnvironmentsService.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\EnvironmentsService.Application.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsService.Application\\EnvironmentsService.Application.csproj",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Application\\EnvironmentsService.Application.csproj",
+              "RelativeToolTip": "EnvironmentsService.Application\\EnvironmentsService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T23:07:54.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EnvironmentMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Repositories\\EnvironmentMemberRepository.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Repositories\\EnvironmentMemberRepository.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Repositories\\EnvironmentMemberRepository.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Repositories\\EnvironmentMemberRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:29:31.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EnvironmentsService.API.csproj",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "RelativeToolTip": "EnvironmentsService.API\\EnvironmentsService.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-07T00:21:11.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251212042110_AddEnvironmentMembers.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Migrations\\20251212042110_AddEnvironmentMembers.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Migrations\\20251212042110_AddEnvironmentMembers.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Migrations\\20251212042110_AddEnvironmentMembers.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Migrations\\20251212042110_AddEnvironmentMembers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:21:12.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EnvironmentMemberConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentMemberConfiguration.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentMemberConfiguration.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentMemberConfiguration.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentMemberConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:18:49.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Environment.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\Entities\\Environment.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Domain\\Entities\\Environment.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\Entities\\Environment.cs",
+              "RelativeToolTip": "EnvironmentsService.Domain\\Entities\\Environment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:54:26.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Data\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Data\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:57:21.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EnvironmentsService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\EnvironmentsService.Infrastructure.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBcAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-07T00:11:11.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EnvironmentMember.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\Entities\\EnvironmentMember.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Domain\\Entities\\EnvironmentMember.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\Entities\\EnvironmentMember.cs",
+              "RelativeToolTip": "EnvironmentsService.Domain\\Entities\\EnvironmentMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:15:49.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EnvironmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Repositories\\EnvironmentRepository.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Repositories\\EnvironmentRepository.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Repositories\\EnvironmentRepository.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Repositories\\EnvironmentRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T21:41:45.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EnvironmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentConfiguration.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentConfiguration.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Data\\Configurations\\EnvironmentConfiguration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:00:45.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251209194308_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Migrations\\20251209194308_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EnvironmentsService.Infrastructure\\Migrations\\20251209194308_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Infrastructure\\Migrations\\20251209194308_InitialCreate.cs",
+              "RelativeToolTip": "EnvironmentsService.Infrastructure\\Migrations\\20251209194308_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:43:16.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EnvironmentsService.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj",
+              "RelativeDocumentMoniker": "EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj",
+              "ToolTip": "C:\\Users\\TUT\\Desktop\\PFE\\EnvironmentService\\EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj",
+              "RelativeToolTip": "EnvironmentsService.Domain\\EnvironmentsService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-07T00:10:55.966Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
