@@ -62,8 +62,30 @@ namespace EnvironmentsService.Application.Services
                 CreatedAt = created.CreatedAt
             };
 
-            var topic = _configuration["Kafka:Topics:EnvironmentCreated"] ?? "environment.created";
-            await _kafkaProducer.ProduceAsync(topic, createdEvent);
+            var topicCreated = _configuration["Kafka:Topics:EnvironmentCreated"] ?? "environment.created";
+            await _kafkaProducer.ProduceAsync(topicCreated, createdEvent);
+
+            var creatorMember = new EnvironmentMember
+            {
+                EnvironmentId = created.Id,
+                UserId = userId,
+                Role = "admin",
+                AddedBy = userId,
+                AddedAt = DateTime.UtcNow
+            };
+
+            await _memberRepository.AddMemberAsync(creatorMember);
+
+            var userAddedEvent = new EnvironmentUserAddedEvent
+            {
+                EnvironmentId = created.Id,
+                UserId = userId,
+                AddedBy = userId,
+                AddedAt = creatorMember.AddedAt
+            };
+
+            var topicUserAdded = _configuration["Kafka:Topics:EnvironmentUserAdded"] ?? "environment.user-added";
+            await _kafkaProducer.ProduceAsync(topicUserAdded, userAddedEvent);
 
             return _mapper.Map<EnvironmentResponseDto>(created);
         }
@@ -152,8 +174,6 @@ namespace EnvironmentsService.Application.Services
             return result;
         }
 
-        // ===== GESTION DES MEMBRES =====
-
         public async Task<EnvironmentMemberResponseDto> AddMemberAsync(
             Guid environmentId,
             AddMemberRequestDto request,
@@ -181,6 +201,17 @@ namespace EnvironmentsService.Application.Services
 
             var created = await _memberRepository.AddMemberAsync(member);
 
+            var userAddedEvent = new EnvironmentUserAddedEvent
+            {
+                EnvironmentId = environmentId,
+                UserId = request.UserId,
+                AddedBy = currentUserId,
+                AddedAt = member.AddedAt
+            };
+
+            var topic = _configuration["Kafka:Topics:EnvironmentUserAdded"] ?? "environment.user-added";
+            await _kafkaProducer.ProduceAsync(topic, userAddedEvent);
+
             return _mapper.Map<EnvironmentMemberResponseDto>(created);
         }
 
@@ -198,6 +229,20 @@ namespace EnvironmentsService.Application.Services
 
             var result = await _memberRepository.RemoveMemberAsync(environmentId, userId);
 
+            if (result)
+            {
+                var userRemovedEvent = new EnvironmentUserRemovedEvent
+                {
+                    EnvironmentId = environmentId,
+                    UserId = userId,
+                    RemovedBy = currentUserId,
+                    RemovedAt = DateTime.UtcNow
+                };
+
+                var topic = _configuration["Kafka:Topics:EnvironmentUserRemoved"] ?? "environment.user-removed";
+                await _kafkaProducer.ProduceAsync(topic, userRemovedEvent);
+            }
+
             return result;
         }
 
@@ -211,27 +256,24 @@ namespace EnvironmentsService.Application.Services
         {
             var accessibleEnvironments = new List<EnvironmentResponseDto>();
 
-            // 1. Environnements créés par l'utilisateur (Chef de projet)
             var createdEnvironments = await _repository.GetByCreatedByAsync(userId);
             foreach (var env in createdEnvironments)
             {
                 var dto = _mapper.Map<EnvironmentResponseDto>(env);
-                dto.CurrentUserRole = "ProjectManager"; // Chef de projet
+                dto.CurrentUserRole = "ProjectManager";
                 accessibleEnvironments.Add(dto);
             }
 
-            // 2. Environnements où l'utilisateur est membre
             var memberships = await _memberRepository.GetByUserIdAsync(userId);
             foreach (var member in memberships)
             {
                 var environment = await _repository.GetByIdAsync(member.EnvironmentId);
                 if (environment != null && environment.IsActive)
                 {
-                    // Éviter les doublons (si déjà ajouté comme créateur)
                     if (!accessibleEnvironments.Any(e => e.Id == environment.Id))
                     {
                         var dto = _mapper.Map<EnvironmentResponseDto>(environment);
-                        dto.CurrentUserRole = member.Role; // Role du membre
+                        dto.CurrentUserRole = member.Role;
                         accessibleEnvironments.Add(dto);
                     }
                 }
@@ -240,11 +282,8 @@ namespace EnvironmentsService.Application.Services
             return accessibleEnvironments.OrderByDescending(e => e.CreatedAt);
         }
 
-        // ===== GESTION DES INVITATIONS =====
-
         public async Task<IEnumerable<EnvironmentInvitationResponseDto>> GetPendingInvitationsAsync(Guid userId)
         {
-            // Récupérer tous les membres où userId est présent
             var memberships = await _memberRepository.GetByUserIdAsync(userId);
             var invitations = new List<EnvironmentInvitationResponseDto>();
 
@@ -270,17 +309,14 @@ namespace EnvironmentsService.Application.Services
 
         public async Task<EnvironmentMemberResponseDto> AcceptInvitationAsync(Guid environmentId, Guid userId)
         {
-            // Vérifier que l'environnement existe
             var environment = await _repository.GetByIdAsync(environmentId);
             if (environment == null || !environment.IsActive)
                 throw new KeyNotFoundException($"Environnement {environmentId} introuvable");
 
-            // Vérifier que l'utilisateur est bien invité
             var member = await _memberRepository.GetByEnvironmentAndUserAsync(environmentId, userId);
             if (member == null)
                 throw new UnauthorizedAccessException("Vous n'êtes pas invité à cet environnement");
 
-            // L'invitation existe déjà, on retourne juste les infos
             return _mapper.Map<EnvironmentMemberResponseDto>(member);
         }
     }
